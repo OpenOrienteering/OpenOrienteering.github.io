@@ -18,19 +18,21 @@ OpenOrienteering Mapper is an orienteering mapmaking program and provides a free
 While it is under continuous development and considered in beta state, it has been used to produce maps for classical orienteering, MTBO and radio orienteering races. All required functions for drawing maps are implemented and the program works very stable. So it can be considered ready for productive use, although it is like always a good idea to keep backups of your files. We are happy about feedback to the program.
 
 
-**Download**:<br/>
-Recommended version for PC and Android: [0.5.96](http://oorienteering.sourceforge.net/?p=194)<br/>
-Latest stable PC version: [0.5.3](http://oorienteering.sourceforge.net/?p=178)<br/>
+<a class="btn btn-primary btn-lg" href="/news/2014/mapper-0-6-0-beta-release" role="button">Download Mapper 0.5.96 &raquo;</a>
+
+**Release history**:<br/>
+Recommended version for PC and Android: [0.5.96](/news/2014/mapper-0-6-0-beta-release)<br/>
 Previous PC versions:
-[0.5.2](http://oorienteering.sourceforge.net/?p=171),
-[0.5.1](http://oorienteering.sourceforge.net/?p=165),
-[0.5.0](http://oorienteering.sourceforge.net/?p=141),
-[0.4.0](http://oorienteering.sourceforge.net/?p=126),
-[0.3.2](http://oorienteering.sourceforge.net/?p=116),
-[0.3.1](http://oorienteering.sourceforge.net/?p=113),
-[0.3.0 (Alpha 3)](http://oorienteering.sourceforge.net/?p=107),
-[0.2.0 (Alpha 2)](http://oorienteering.sourceforge.net/?p=92),
-[0.1.0 (Alpha 1)](http://oorienteering.sourceforge.net/?p=74)
+[0.5.3](/news/2013/mapper-0-5-3-release-candidate-available),
+[0.5.2](/news/2013/ocd-import-up-to-version-11-openorienteering-mapper-release-0-5-2),
+[0.5.1](/news/2013/openorienteering-mapper-polished-released-0-5-1),
+[0.5.0](/news/2013/the-next-step-openorienteering-mapper-0-5-0),
+[0.4.0](/news/2012/openorienteering-mapper-0-4-provides-a-wealth-of-new-features),
+[0.3.2](/news/2012/new-openorienteering-mapper-release-for-mac-os-x),
+[0.3.1](/news/2012/openorienteering-mapper-alpha-release-0-3-1),
+[0.3.0 (Alpha 3)](/news/2012/third-alpha-version-of-openorienteering-mapper),
+[0.2.0 (Alpha 2)](/news/2012/second-alpha-version-of-openorienteering-mapper),
+[0.1.0 (Alpha 1)](/news/2012/first-alpha-release-of-openorienteering-mapper)
 
 
 **Screenshots**:

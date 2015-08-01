@@ -13,10 +13,8 @@ categories:
 
 Version 0.5.0 marks the next step in the development of the free mapmaking program. Again many new features made it into the release - see the list of highlights below.
 
-****Download****
 
-
-
+**Download**
 	
   * [Windows installer](http://sourceforge.net/projects/oorienteering/files/Mapper/0.5.0/openorienteering-mapper_0.5.0-Windows-x86.exe/download) (12.1 MB)
 
@@ -36,6 +34,7 @@ Version 0.5.0 marks the next step in the development of the free mapmaking progr
 You can always find the latest binary and source release on
 [http://sourceforge.net/projects/oorienteering/files/Mapper/](http://sourceforge.net/projects/oorienteering/files/Mapper/)
 
+
 **Translations**
 
 Currently, English, German, Norwegian and Polish translations are fully up to date.
@@ -43,10 +42,8 @@ Additional translations will be released on [http://sourceforge.net/projects/oo
 
 If you are interested in writing a translation, find more information [here](http://sourceforge.net/apps/mediawiki/oorienteering/index.php?title=Translation).
 
+
 **Documentation links**
-
-
-
 	
   * [Wiki with program manual](https://sourceforge.net/p/oorienteering/wiki/Home/)
 
@@ -62,21 +59,13 @@ If you are interested in writing a translation, find more information [here](htt
 Example maps
 {% include image src="/assets/2013/Release_0_5_0_Sample_map-300x200.png" caption="Release 0.5.0 Sample map" href="/assets/2013/Release_0_5_0_Sample_map.png" %}
 
-This version of Mapper comes with three example files:
-
-
-
+  * This version of Mapper comes with three example files:
 	
-  * Sprint sample from map "Landschaftspark Hachinger Tal" by Bettina Deixler
+    * Sprint sample from map "Landschaftspark Hachinger Tal" by Bettina Deixler
+    * Forest sample from map "Schlossbergholz" by Thomas Schöps
+    * Overprinting example
 
-	
-  * Forest sample from map "Schlossbergholz" by Thomas Schöps
-
-	
-  * Overprinting example
-
-
-You can open them from the second Tip of the Day, or find them directly in the examples folder of your Mapper installation directory, e.g. C:/Program Files/OpenOrienteering Mapper 0.5.0/examples.
+  * You can open them from the second Tip of the Day, or find them directly in the examples folder of your Mapper installation directory, e.g. C:/Program Files/OpenOrienteering Mapper 0.5.0/examples.
 
 Editing tools
 {% include image src="/assets/2013/Release_0_5_0_Cut_away_tool-300x200.png" caption="Release 0.5.0 Cut away tool" href="/assets/2013/Release_0_5_0_Cut_away_tool.png" %}

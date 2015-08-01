@@ -39,7 +39,7 @@ OpenOrienteering Mapper currently does it like this:
 
 This seems to look okay in most cases (as can be seen in the screenshots above). But in the case where multiple dashes are grouped together (with the intent of having a different break length inside groups than outside), the length of the line it takes until the dashes show up feels rather long, as can be seen here:
 
-[![](/assets/2012/line_symbols_5-300x198.png)](/assets/2012/line_symbols_5.png)
+{% include image src="/assets/2012/line_symbols_5-300x198.png" caption="Line symbol dash grouping" href="/assets/2012/line_symbols_5.png" %}
 
 This of course assumes that the system works correctly, which I am not completely sure about ;-)
 It would be possible to specify an arbitrarily lower limit for the dashes of lines with dash groups. But that is the problem I see with it: it would be arbitrary.

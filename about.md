@@ -18,8 +18,8 @@ Phone: 0049 157 88644 531
 E-Mail: puzzlepaint (@) ymail (.) com
 (Spam prevention: remove brackets)
 
-**Disclaimer
-**I cannot take any responsibility for the correctness of the contents of this site, or for the contents of linked pages in general, for which the respective owners are responsible. At the time of creating the links, the content of the linked sites was checked for possible law violations, but it is not reasonable to monitor this continuously. If you still encounter law violations, it may be best to lay down on the floor and wait for help.
+**Disclaimer**
+I cannot take any responsibility for the correctness of the contents of this site, or for the contents of linked pages in general, for which the respective owners are responsible. At the time of creating the links, the content of the linked sites was checked for possible law violations, but it is not reasonable to monitor this continuously. If you still encounter law violations, it may be best to lay down on the floor and wait for help.
 
 ---
 

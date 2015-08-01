@@ -13,7 +13,7 @@ categories:
 
 The year 2011 is over and it is time for a status update here. My semester abroad is finished and due to different semester times my next semester starts in more than three months, so I've got a lot of free time now. Time to party? No. Time to work! ;-) So I am going to announce the next project I am working on, and this time it is a bigger one:
 
-{% include image src="/assets/2012/title.png" caption="openorienteering Mapper" href="/assets/2012/title.png" %}
+![openorienteering Mapper](/assets/2012/title.png)
 
 ... is a program which aims to replace OCAD, the current standard for drawing orienteering maps. Sounds like re-inventing the wheel? Here are some of the reasons why I think that this is important:
 
