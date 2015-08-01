@@ -1,0 +1,28 @@
+{% comment %}<!--
+
+  Create images with captions and optional links
+
+  Example:
+
+    {% include image src="Schlossbergholz_in_0.5.0-300x205.png" caption="An orienteering map in OO Mapper 0.5.0" href="Schlossbergholz_in_0.5.0.png" %}
+
+  Template for Copy and Paste:
+
+    {% include image src="" caption="" href="" %}
+
+-->{% endcomment %}
+{% if include.href %}
+<div class="thumbnail">
+  <a href="{{ include.href }}" title="{{ include.caption }}"><img src="{{ include.src }}" alt="{{ include.caption }}"></a>
+  <div class="caption">
+     <p> <a href="{{ include.href }}">{{ include.caption }}</a></p>
+  </div>
+</div>
+{% else %}
+<div class="thumbnail">
+  <img src="{{ include.src }}" alt="{{ include.caption }}">
+  <div class="caption">
+     <p>{{ include.caption }}</p>
+  </div>
+</div>
+{% endif %}

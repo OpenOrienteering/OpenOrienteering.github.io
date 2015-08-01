@@ -1,0 +1,38 @@
+body { 
+  background-image: url('/assets/openorienteering/contour_bg.gif');
+  background-repeat: repeat;
+  background-position: top left;
+  background-attachment: scroll;
+}
+
+#oo-margin-top-bottom {
+  height: 30px;
+}
+
+.oo #oo-banner {
+  padding: 0;
+}
+
+.oo #oo-banner img {
+  width: 100%;
+  height: auto;
+  max-height: 170px;
+  display: block;
+}
+
+.oo .navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.oo div.container {
+  background-color: #ffffff;
+}
+
+.oo .thumbnail .caption {
+  text-align: center;
+}
+
+.oo img {
+  max-width: 100%;
+}

@@ -1,0 +1,37 @@
+OpenOrienteering Mapper alpha-2 Changelog
+=========================================
+
+New tools:
+* Text drawing tool
+* Rotate tool
+* Cut tool
+* Cut hole tool
+* Connect lines tool
+
+New actions:
+* View whole map
+* Set custom zoom factor
+* Hide and protect symbols
+
+Other additions:
+* OCAD 8 file import, including symbol sets
+* German translation
+* Fullscreen mode
+* Symbols can be sorted by number
+* Possibility to move and zoom the view without a mouse wheel
+
+Changes and fixes:
+* Path points can be added and removed with the edit tool
+* Combined objects are correctly updated by the 'Scale all symbols' action
+* Paper size should always be set correctly when printing with a custom size
+* Fix zooming for finer than normal mouse wheel steppings
+* Rotation of point objects is correctly saved
+* On Windows, more image formats are supported to be loaded as templates
+* Useless geoid settings for georeferencing removed
+* Allow only one instance of the program at a time
+* Changed zoom behavior to be consistent for zooming in & out
+* Improved object selection for lines and areas
+* Made the 'helper symbol' setting work
+* Changed sign of Y part of coordinates so positive Y is up
+* Reworked the 'new map' dialog
+* Reworked the georeferencing dialog 

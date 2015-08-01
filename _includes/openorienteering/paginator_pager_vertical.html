@@ -1,0 +1,11 @@
+{% if paginator.total_pages > 1 %}
+    <ul class="nav nav-pills nav-stacked">
+      {% if paginator.next_page %}
+      <li role="presentation"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older posts</a></li>
+      {% endif %}
+      {% if paginator.previous_page %}
+      <li role="presentation"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Newer posts</a></li>
+      {% endif %}
+    </ul>
+{% endif %}
+

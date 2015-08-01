@@ -1,0 +1,8 @@
+---
+title : Sitemap
+---
+{% for page in site.pages %}
+{% if page.url == "/404.html" or page.url == "/sitemap.txt" %}
+{% else %}{{site.production_url}}{{ page.url }}{% endif %}{% endfor %}
+{% for post in site.posts %}
+{{site.production_url}}{{ post.url }} {% endfor %}

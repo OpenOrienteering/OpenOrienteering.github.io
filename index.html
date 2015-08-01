@@ -1,0 +1,16 @@
+---
+layout: page
+title: News
+meta_title: OpenOrienteering | Open Source Orienteering Software
+---
+{% for post in paginator.posts %}
+  <div class="page-header">
+  <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+  </div>
+  <p><em>Posted on {{ post.date | date_to_long_string }} by {{ post.author }}</em></p>
+  {{ post.content }}
+  <p>
+    <a class="btn btn-default btn-xs" href="#top">Back to top</a>
+  </p>
+{% endfor %}
+
