@@ -11,12 +11,13 @@ body {
 
 .oo #oo-banner {
   padding: 0;
+  max-height: 170px;
+  overflow: hidden;
 }
 
 .oo #oo-banner img {
   width: 100%;
   height: auto;
-  max-height: 170px;
   display: block;
 }
 
