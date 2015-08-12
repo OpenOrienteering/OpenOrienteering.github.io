@@ -32,15 +32,11 @@ The program generates the following visualizations:
 Here are example pictures for the most useful visualizations:
 
 {% include image src="contour-257x300.gif" caption="Contours - 1m interval, red line every 5 meters" href="contour.gif" %}
-<br />Contours - 1m interval, red line every 5 meters
 
 {% include image src="height_shade-257x300.jpg" caption="Height shade - the relief with lighting from north west" href="height_shade.jpg" %}
-<br />Height shade - the relief with lighting from north west
 
 {% include image src="height_slope-257x300.jpg" caption="Height slope - the darker, the steeper the terrain is" href="height_slope.jpg" %}
-<br />Height slope - the darker, the steeper the terrain is
 
 {% include image src="vegetation_height-257x300.jpg" caption="Vegetation height - The brighter, the higher the objects are" href="vegetation_height.jpg" %}
-<br />Vegetation height - The brighter, the higher the objects are
 
 The images are generated from the [Trondheim dataset](http://arken.umb.no/~havatv/o/trondheim2010/) using a pixel distance of 1 meter.
