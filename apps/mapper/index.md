@@ -66,8 +66,8 @@ Previous PC versions:
 
 There is a lot to do, and we appreciate every kind of help, whether you are a programmer or not. As an example of a programming free task, ‘official’ symbol sets for MTB and Ski orienteering maps are still missing. If you are interested in contributing, good places to start are:
 	
-  * [Git repository](https://sourceforge.net/p/oorienteering/code/) containing the latest version
-  * [Ticket system](https://sourceforge.net/p/oorienteering/tickets/) showing tasks that have to be done, and the right place to report bugs
+  * [Git repository](https://github.com/OpenOrienteering/mapper) containing the latest version
+  * [Ticket system](https://github.com/OpenOrienteering/mapper/issues) showing tasks that have to be done, and the right place to report bugs
   * [Developer mailing list](https://lists.sourceforge.net/lists/listinfo/oorienteering-devel) for discussions (and introducing yourself)
   * [Developer wiki](https://sourceforge.net/apps/mediawiki/oorienteering/index.php?title=Main_Page) for information about the code
 
