@@ -15,7 +15,7 @@ Beta release packages for the coming release are available as [**Mapper 0.5.96**
 
 This is an beta quality release. It is recommended to make regular backups of original files. However, we believe that this release will be running very stable, and we will do our best to fix major bugs quickly in follow-up releases.
 
-This version contains a lot of changes from 0.5.3, and [a small number of bugs were fixed since 0.5.95](http://sourceforge.net/p/oorienteering/tickets/search?q=labels:%22known_issues_0.5.95%22). Depending on the features used in the new version, maps might no longer be readable in Mapper version 0.5.3 or older. We introduced a setting which allows to retain compatibility of files with older versions of Mapper.
+This version contains a lot of changes from 0.5.3, and [a small number of bugs were fixed since 0.5.95](https://github.com/OpenOrienteering/mapper/issues?q=label%3Aknown_issues_0.5.95). Depending on the features used in the new version, maps might no longer be readable in Mapper version 0.5.3 or older. We introduced a setting which allows to retain compatibility of files with older versions of Mapper.
 
 For the first time, we offer 64-bit Windows packages (x64). These packages are required to make full use of more than 2 GB of RAM, e.g. when loading many or large templates. For Windows, the build tools were updated to a GCC 4.9.2. The installer package for Windows now deals more cleanly with file extensions, and it even adds Mapper as an alternative editor for .ocd files.
 
@@ -71,6 +71,6 @@ For getting a stable 0.6.0 we could need some help with:
 We are looking forward to your feedback on bugs, annoyances or missing features.
 
 	
-  * **[Known issues / ticket system](http://sourceforge.net/p/oorienteering/tickets/search?q=labels:%22known_issues_0.5.96%22)**
+  * **[Known issues / ticket system](https://github.com/OpenOrienteering/mapper/issues?q=label%3Aknown_issues_0.5.96)**
 
 
