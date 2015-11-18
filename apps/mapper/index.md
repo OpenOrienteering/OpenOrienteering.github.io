@@ -19,6 +19,7 @@ While it is under continuous development and considered in beta state, it has be
 
 
 <a class="btn btn-primary btn-lg" href="/news/2014/mapper-0-6-0-beta-release" role="button">Download Mapper 0.5.96 &raquo;</a>
+<a class="btn btn-primary btn-lg" href="/news/2015/mapper-unstable-packages/" role="button">Download latest unstable build &raquo;</a>
 
 **Release history**:<br/>
 Recommended version for PC and Android: [0.5.96](/news/2014/mapper-0-6-0-beta-release)<br/>
