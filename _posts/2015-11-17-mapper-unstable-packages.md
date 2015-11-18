@@ -22,6 +22,6 @@ Until 0.5.97 release packages are ready for all systems (Windows, OS X, Android,
  - [Linux packages](https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable)
 
 Please take care (i.e. backups) of your map files when working with the unstable packages.
-See the [known issues for unstable](https://github.com/OpenOrienteering/mapper/issues?q=label:"known issues unstable").
+See the [known issues for unstable](https://github.com/OpenOrienteering/mapper/issues?q=is:open+label:"known issues unstable").
 
-These unstable packages on OBS are available for a while now and updated frequently. At lot more has happened silently since the last release: Some patches were contributed directly to Qt, and our project hosting changed from Sourceforge to Github. 
+These unstable packages on OBS are available for a while now and updated frequently. At lot more has happened silently since the last release: Bugs were reported, and some patches were contributed, directly to Qt. Our project hosting was changed from Sourceforge to Github (with some parts still on Sourceforge).
