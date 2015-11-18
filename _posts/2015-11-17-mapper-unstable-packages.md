@@ -10,14 +10,16 @@ categories:
 ---
 
 Other than announced, release 0.5.97 - more than one year after 0.5.96 - will bring a lot of changes. Most of the work was internal restructuring which shall improve maintainability but remain invisible. But there are also interesting new features since 0.5.96:
-- PDF export with CMYK colors (OpenOrienteering/mapper#482)
-- Georeferencing with EPSG code
+
+ - PDF export with CMYK colors (OpenOrienteering/mapper#482)
+ - Georeferencing with EPSG code
 
 For Windows, OS X, and Android, the updated Qt library (version 5.5.1) improves the support for the newer version of these operating systems.
 
 Until 0.5.97 release packages are ready for all systems (Windows, OS X, Android, Linux), Windows and Linux users are encouraged to test the packages from the **unstable** series on openSUSE build service (OBS):
-- [Windows Installer (.exe) and self-extracting archive (.sfx.exe) for x64 and x86](http://download.opensuse.org/repositories/home:/dg0yt/Windows/)
-- [Linux packages](https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable)
+
+ - [Windows Installer (.exe) and self-extracting archive (.sfx.exe) for x64 and x86](http://download.opensuse.org/repositories/home:/dg0yt/Windows/)
+ - [Linux packages](https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable)
 
 Please take care (i.e. backups) of your map files when working with the unstable packages.
 See the [known issues for unstable](https://github.com/OpenOrienteering/mapper/issues?q=label:"known issues unstable").
