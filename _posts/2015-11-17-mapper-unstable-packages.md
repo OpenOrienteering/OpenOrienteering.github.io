@@ -20,7 +20,8 @@ Until 0.5.97 release packages are ready for all systems (Windows, OS X, Android,
 
  - [Windows Installer (.exe) and self-extracting archive (.sfx.exe) for x64 and x86](http://download.opensuse.org/repositories/home:/dg0yt/Windows/)
  - [Linux packages](https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable)
-   <iframe markdown="0" src="http://software.opensuse.org/download/package.iframe?project=home:dg0yt&package=openorienteering-mapper-unstable"> </iframe>
+
+<iframe markdown="0" src="http://software.opensuse.org/download/package.iframe?project=home:dg0yt&package=openorienteering-mapper-unstable"> </iframe>
 
 Please take care (i.e. backups) of your map files when working with the unstable packages.
 See the [known issues for unstable](https://github.com/OpenOrienteering/mapper/issues?q=is:open+label:"known issues unstable").
