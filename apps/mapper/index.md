@@ -18,12 +18,13 @@ OpenOrienteering Mapper is an orienteering mapmaking program and provides a free
 While it is under continuous development and considered in beta state, it has been used to produce maps for classical orienteering, MTBO and radio orienteering races. All required functions for drawing maps are implemented and the program works very stable. So it can be considered ready for productive use, although it is like always a good idea to keep backups of your files. We are happy about feedback to the program.
 
 
-<a class="btn btn-primary btn-lg" href="/news/2014/mapper-0-6-0-beta-release" role="button">Download Mapper 0.5.96 &raquo;</a>
+<a class="btn btn-primary btn-lg" href="https://github.com/OpenOrienteering/mapper/releases" role="button">Download Mapper &raquo;</a><br />
 <a class="btn btn-primary btn-lg" href="/news/2015/mapper-unstable-packages/" role="button">Download latest unstable build &raquo;</a>
 
 **Release history**:<br/>
-Recommended version for PC and Android: [0.5.96](/news/2014/mapper-0-6-0-beta-release)<br/>
+Recommended version for PC and Android: [0.5.97](https://github.com/OpenOrienteering/mapper/releases/tag/v0.5.97)<br/>
 Previous PC versions:
+[0.5.96](/news/2014/mapper-0-6-0-beta-release),
 [0.5.3](/news/2013/mapper-0-5-3-release-candidate-available),
 [0.5.2](/news/2013/ocd-import-up-to-version-11-openorienteering-mapper-release-0-5-2),
 [0.5.1](/news/2013/openorienteering-mapper-polished-released-0-5-1),
