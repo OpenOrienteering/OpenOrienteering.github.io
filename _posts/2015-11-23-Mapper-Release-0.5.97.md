@@ -29,7 +29,7 @@ Downloads for Windows are built and hosted on openSUSE build service (OBS).
 [Self-extracting archive for 64 bit Windows](http://download.opensuse.org/repositories/home:/dg0yt/Windows/openorienteering-mapper_0.5.97-Windows-x64.sfx.exe)
 [Self-extracting archive for 32 bit Windows](http://download.opensuse.org/repositories/home:/dg0yt/Windows/openorienteering-mapper_0.5.97-Windows-x86.sfx.exe)
 
-### OSX
+### OS X
 Downloads for OS X are hosted on Github.
 
 **[DMG for drag-and-drop installation](https://github.com/OpenOrienteering/mapper/releases/download/v0.5.97/OpenOrienteering-Mapper-0.5.97-Darwin-x64.dmg)**
