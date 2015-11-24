@@ -71,6 +71,6 @@ There is a lot to do, and we appreciate every kind of help, whether you are a pr
   * [Git repository](https://github.com/OpenOrienteering/mapper) containing the latest version
   * [Ticket system](https://github.com/OpenOrienteering/mapper/issues) showing tasks that have to be done, and the right place to report bugs
   * [Developer mailing list](https://lists.sourceforge.net/lists/listinfo/oorienteering-devel) for discussions (and introducing yourself)
-  * [Developer wiki](https://sourceforge.net/apps/mediawiki/oorienteering/index.php?title=Main_Page) for information about the code
+  * [Developer wiki](https://github.com/OpenOrienteering/mapper/wiki) for information about the code
 
 
