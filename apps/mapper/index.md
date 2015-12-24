@@ -20,12 +20,13 @@ While it is under continuous development and considered in beta state, it has be
 &#9733;&#9733;&#9733;&#9733;&#9733; [User reviews](user-reviews.html)
 
 
-<a class="btn btn-primary btn-lg" href="https://github.com/OpenOrienteering/mapper/releases" role="button">Download Mapper &raquo;</a><br />
+<a class="btn btn-primary btn-lg" href="https://github.com/OpenOrienteering/mapper/releases/latest" role="button">Download Mapper &raquo;</a><br />
 <a class="btn btn-primary btn-lg" href="/news/2015/mapper-unstable-packages/" role="button">Download latest unstable build &raquo;</a>
 
 **Release history**:<br/>
-Recommended version for PC and Android: [0.5.97](https://github.com/OpenOrienteering/mapper/releases/tag/v0.5.97)<br/>
+Recommended version for PC and Android: [0.6.0](https://github.com/OpenOrienteering/mapper/releases/tag/v0.6.0)<br/>
 Previous PC versions:
+[0.5.97](https://github.com/OpenOrienteering/mapper/releases/tag/v0.5.97)
 [0.5.96](/news/2014/mapper-0-6-0-beta-release),
 [0.5.3](/news/2013/mapper-0-5-3-release-candidate-available),
 [0.5.2](/news/2013/ocd-import-up-to-version-11-openorienteering-mapper-release-0-5-2),
