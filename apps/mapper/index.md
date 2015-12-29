@@ -1,13 +1,13 @@
 ---
-author: Thomas Schöps
-comments: true
-date: 2012-03-27 16:09:04+00:00
 layout: page
 slug: mapper
 title: Mapper
-wordpress_id: 103
 icon: Mapper-128.png
 favicon: Mapper-32.png
+release:
+   version:      0.6.0
+   announcement: http://openorienteering.github.io/news/2015/mapper-0.6.0-released
+   predecessor:  0.5.97
 ---
 
 OpenOrienteering Mapper is an orienteering mapmaking program and provides a free alternative to the existing proprietary solution. Its main advantages compared to it are:
@@ -20,24 +20,73 @@ While it is under continuous development and considered in beta state, it has be
 &#9733;&#9733;&#9733;&#9733;&#9733; [User reviews](user-reviews.html)
 
 
-<a class="btn btn-primary btn-lg" href="https://github.com/OpenOrienteering/mapper/releases/latest" role="button">Download Mapper &raquo;</a><br />
-<a class="btn btn-primary btn-lg" href="/news/2015/mapper-unstable-packages/" role="button">Download latest unstable build &raquo;</a>
 
-**Release history**:<br/>
-Recommended version for PC and Android: [0.6.0](https://github.com/OpenOrienteering/mapper/releases/tag/v0.6.0)<br/>
-Previous PC versions:
-[0.5.97](https://github.com/OpenOrienteering/mapper/releases/tag/v0.5.97)
-[0.5.96](/news/2014/mapper-0-6-0-beta-release),
-[0.5.3](/news/2013/mapper-0-5-3-release-candidate-available),
-[0.5.2](/news/2013/ocd-import-up-to-version-11-openorienteering-mapper-release-0-5-2),
-[0.5.1](/news/2013/openorienteering-mapper-polished-released-0-5-1),
-[0.5.0](/news/2013/the-next-step-openorienteering-mapper-0-5-0),
-[0.4.0](/news/2012/openorienteering-mapper-0-4-provides-a-wealth-of-new-features),
-[0.3.2](/news/2012/new-openorienteering-mapper-release-for-mac-os-x),
-[0.3.1](/news/2012/openorienteering-mapper-alpha-release-0-3-1),
-[0.3.0 (Alpha 3)](/news/2012/third-alpha-version-of-openorienteering-mapper),
-[0.2.0 (Alpha 2)](/news/2012/second-alpha-version-of-openorienteering-mapper),
-[0.1.0 (Alpha 1)](/news/2012/first-alpha-release-of-openorienteering-mapper)
+<div class="panel-group" id="release-selection" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-info">
+    <div class="panel-heading" role="tab" id="heading-stable-release">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#release-selection" href="#collapse-stable-release" aria-expanded="true" aria-controls="collapse-stable-release">
+          Stable Release
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-stable-release" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-stable-release">
+      <div class="panel-body">
+        <p>The current recommended version for PC and Android is <b>Mapper {{ page.release.version }}</b>.</p>
+        <p><a href="{{ page.release.announcement }}">Release announcement</a>
+        <br/><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.predecessor }}...v{{ page.release.version }}">Changes since {{ page.release.predecessor }}</a>
+        <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=label:%22known%20issues%20{{ page.release.version }}%22">Known issues in {{ page.release.version }}</a></p>
+        <p><a class="btn btn-primary btn-lg" href="https://github.com/OpenOrienteering/mapper/releases/v{{ page.release.version }}" role="button">Download Mapper {{ page.release.version }} &raquo;</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-danger">
+    <div class="panel-heading" role="tab" id="heading-unstable-release">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#release-selection" href="#collapse-unstable-release" aria-expanded="false" aria-controls="collapse-unstable-release">
+          Development snapshots
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-unstable-release" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-unstable-release">
+      <ul class="list-group">
+        <li class="list-group-item">
+        <p>These Windows and Linux packages are updated shortly after changes are published on Github. They may contain unstable code. Please take care (i.e. backups) of your map files when working with the unstable packages. See the known issues for unstable.</p>
+        <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...master">Changes since {{ page.release.version }}</a>
+        <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20unstable%22">Known issues</a></p>
+        </li>
+        <li class="list-group-item"><a href="http://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows Installer (.exe) and self-extracting archive (.sfx.exe) for x64 and x86</a></li>
+        <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable">Linux packages</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading-release-history">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#release-selection" href="#collapse-release-history" aria-expanded="false" aria-controls="collapse-release-history">
+          Release history
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-release-history" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-release-history">
+      <ul class="list-group">
+        <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.6.0">0.6.0</a></li>
+        <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.5.97">0.5.97</a></li>
+        <li class="list-group-item"><a href="/news/2014/mapper-0-6-0-beta-release">0.5.96</a></li>
+        <li class="list-group-item"><a href="/news/2013/mapper-0-5-3-release-candidate-available">0.5.3</a></li>
+        <li class="list-group-item"><a href="/news/2013/ocd-import-up-to-version-11-openorienteering-mapper-release-0-5-2">0.5.2</a></li>
+        <li class="list-group-item"><a href="/news/2013/openorienteering-mapper-polished-released-0-5-1">0.5.1</a></li>
+        <li class="list-group-item"><a href="/news/2013/the-next-step-openorienteering-mapper-0-5-0">0.5.0</a></li>
+        <li class="list-group-item"><a href="/news/2012/openorienteering-mapper-0-4-provides-a-wealth-of-new-features">0.4.0</a></li>
+        <li class="list-group-item"><a href="/news/2012/new-openorienteering-mapper-release-for-mac-os-x">0.3.2</a></li>
+        <li class="list-group-item"><a href="/news/2012/openorienteering-mapper-alpha-release-0-3-1">0.3.1</a></li>
+        <li class="list-group-item"><a href="/news/2012/third-alpha-version-of-openorienteering-mapper">0.3.0 (Alpha 3)</a></li>
+        <li class="list-group-item"><a href="/news/2012/second-alpha-version-of-openorienteering-mapper">0.2.0 (Alpha 2)</a></li>
+        <li class="list-group-item"><a href="/news/2012/first-alpha-release-of-openorienteering-mapper">0.1.0 (Alpha 1)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 
 **Screenshots**:
