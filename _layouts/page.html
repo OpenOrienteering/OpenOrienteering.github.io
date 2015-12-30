@@ -1,8 +1,23 @@
 ---
 layout: default
 ---
+{% if page.icon %}
+<div class="page-header">
+  <div class="media">
+    <div class="media-left">
+      <a href="#">
+        <img class="media-object" src="{{ page.icon }}" alt="Icon for {{ page.title }}" style="height:6em;" />
+      </a>
+    </div>
+    <div class="media-body">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
+</div>
+{% else %}
 <div class="page-header">
   <h1>{{ page.title }}</h1>
 </div>
+{% endif %}
 {{ content }}
 
