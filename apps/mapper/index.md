@@ -115,7 +115,7 @@ While it is under continuous development and considered in beta state, it has be
   * Printing, PDF and raster image export for getting the map into course setting programs
   * Advanced features like overprinting simulation, different map cutouts, symbol set replacement, and much more ...
 
-The [online manual](http://openorienteering.org/mapper-manual/) can give your more ideas of what the program does.  
+The [online manual](http://openorienteering.org/mapper-manual/) can give you more ideas of what the program does.  
 
 
 **Contributing**
