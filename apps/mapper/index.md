@@ -6,7 +6,7 @@ icon: Mapper-128.png
 favicon: Mapper-32.png
 release:
    version:      0.6.1
-   announcement: http://openorienteering.github.io/news/2015/mapper-0.6.0-released
+   announcement: http://www.openorienteering.org/news/2016/mapper-0.6.1-released/
    predecessor:  0.6.0
 ---
 
