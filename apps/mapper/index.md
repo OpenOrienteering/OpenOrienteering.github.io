@@ -5,9 +5,9 @@ title: Mapper
 icon: Mapper-128.png
 favicon: Mapper-32.png
 release:
-   version:      0.6.0
+   version:      0.6.1
    announcement: http://openorienteering.github.io/news/2015/mapper-0.6.0-released
-   predecessor:  0.5.97
+   predecessor:  0.6.0
 ---
 
 OpenOrienteering Mapper is an orienteering mapmaking program and provides a free alternative to the existing proprietary solution. Its main advantages compared to it are:
@@ -17,7 +17,7 @@ OpenOrienteering Mapper is an orienteering mapmaking program and provides a free
 
 While it is under continuous development and considered in beta state, it has been used to produce maps for classical orienteering, MTBO and radio orienteering races. All required functions for drawing maps are implemented and the program works very stable. So it can be considered ready for productive use, although it is like always a good idea to keep backups of your files. We are happy about feedback to the program.
 
-&#9733;&#9733;&#9733;&#9733;&#9733; [User reviews](user-reviews.html)
+[User reviews &#9733;&#9733;&#9733;&#9733;&#9733;](user-reviews.html)
 
 
 
@@ -70,6 +70,7 @@ While it is under continuous development and considered in beta state, it has be
     </div>
     <div id="collapse-release-history" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-release-history">
       <ul class="list-group">
+        <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.6.1">0.6.1</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.6.0">0.6.0</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.5.97">0.5.97</a></li>
         <li class="list-group-item"><a href="/news/2014/mapper-0-6-0-beta-release">0.5.96</a></li>
