@@ -24,4 +24,4 @@ DXF files.
 The current unstable snapshot comes with GDAL 2.0.1 for Windows, and it uses the 
 distributions' packages on Linux. (There is no GDAL support for openSUSE 13.2).
 
-![Shapefile in Mapper](2016-01-27-GDAL-support.png)
+![Shapefile in Mapper](/assets/2016/2016-01-27-GDAL-support.png)
