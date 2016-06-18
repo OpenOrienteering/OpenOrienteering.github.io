@@ -13,7 +13,7 @@ release:
 OpenOrienteering Mapper is an orienteering mapmaking program and provides a free alternative to the existing proprietary solution. Its main advantages compared to it are:
 	
   * Open Source: the program is completely free, every programmer can improve it.
-  * Cross-platform: the program works on Android, Windows, Mac OS X and Linux.
+  * Cross-platform: the program works on Android, Windows, OS X and Linux.
 
 While it is under continuous development and considered in beta state, it has been used to produce maps for classical orienteering, MTBO and radio orienteering races. All required functions for drawing maps are implemented and the program works very stable. So it can be considered ready for productive use, although it is like always a good idea to keep backups of your files. We are happy about feedback to the program.
 
@@ -100,13 +100,15 @@ While it is under continuous development and considered in beta state, it has be
 
 **Main features** of the current version include:
 	
-  * Native ISOM 2000 (forest) and ISSOM 2007 (sprint) symbol sets
+  * Symbol sets for ISOM 2000 (forest), ISSOM 2007 (sprint), ISMTBOM (mountain bike) and ISSkiOM (ski)
   * Import and export of ocd maps and symbol sets (import: version 6 - 11, export: version 8)
+  * Georeferencing (based on Proj.4 library)
   * Working with various kinds of templates:
     * Images (bmp, jpg, tif, png, gif)
     * GPS tracks (gpx)
     * Vector data (dxf, osm)
     * Maps (ocd, omap, xmap)
+    * Georeferencing of templates by world file
   * Working with all important symbol types:
     * Points
     * Lines
@@ -115,19 +117,20 @@ While it is under continuous development and considered in beta state, it has be
     * Composite symbols
   * Drawing and many editing tools for objects
   * Printing, PDF and raster image export for getting the map into course setting programs
-  * Advanced features like overprinting simulation, different map cutouts, symbol set replacement, and much more ...
+    * Overprinting simulation (raster output)
+    * CMYK PDF export (vector output)
+  * Many translations
 
-The [online manual](http://openorienteering.org/mapper-manual/) can give you more ideas of what the program does.  
+The [online manual](http://www.openorienteering.org/mapper-manual/) can give you more ideas of what the program does.  
 
 
 **Contributing**
 
-There is a lot to do, and we appreciate every kind of help, whether you are a programmer or not. As an example of a programming free task, ‘official’ symbol sets for MTB and Ski orienteering maps are still missing. If you are interested in contributing, good places to start are:
+There is a lot to do, and we appreciate every kind of help, whether you are a programmer or not. If you are interested in contributing, good places to start are:
 	
   * [Git repository](https://github.com/OpenOrienteering/mapper) containing the latest source code
   * [Manual repository](https://github.com/OpenOrienteering/mapper-manual)
   * [Ticket system](https://github.com/OpenOrienteering/mapper/issues) showing tasks that have to be done, and the right place to report bugs
-  * [Developer mailing list](https://lists.sourceforge.net/lists/listinfo/oorienteering-devel) for discussions (and introducing yourself)
   * [Developer wiki](https://github.com/OpenOrienteering/mapper/wiki) for information about the code
-
-
+  * [Developer mailing list](https://lists.sourceforge.net/lists/listinfo/oorienteering-devel) for discussions (and introducing yourself). However, the ticket system is also a good place for discussion.
+  
