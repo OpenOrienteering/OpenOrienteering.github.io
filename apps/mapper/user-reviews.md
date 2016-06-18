@@ -8,6 +8,16 @@ icon: Mapper-128.png
 favicon: Mapper-32.png
 ---
 
+beefrank
+
+&#9733;&#9733;&#9733;&#9733;&#9733;
+
+> Great mapping software! I'm a very recent convert to Mapper, using both Windows and Linux versions. After being away from orienteering for nearly 25 years, I found the software to be a major time-saver compared with how I remember producing maps in ancient times. The software is extremely easy to use, and to adapt for special requirements. The only problem I found (minor, easily solved, and which could be finger trouble) was templates becoming invisible after printing or exporting a map. However, templates could be made to reappear by exiting and re-starting the software.
+
+*Posted 01/17/2016*
+
+---
+
 rayaude
 
 &#9733;&#9733;&#9733;&#9733;&#9733;
