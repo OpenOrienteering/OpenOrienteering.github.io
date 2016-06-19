@@ -6,6 +6,7 @@ layout: page
 slug: contourtrace
 title: ContourTrace
 wordpress_id: 2
+preface: Published by Thomas Schöps in 2011
 ---
 
 [**Download here!**](http://sourceforge.net/projects/oorienteering/files/ContourTrace/)
