@@ -6,6 +6,7 @@ layout: page
 slug: laserscan-tool
 title: Laserscan tool
 wordpress_id: 14
+preface: Published by Thomas Schöps in 2012
 ---
 
 **[Download here!](https://sourceforge.net/projects/oorienteering/files/Lasertool/)**
