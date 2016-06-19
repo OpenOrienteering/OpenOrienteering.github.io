@@ -6,9 +6,10 @@ layout: page
 slug: betting
 title: Betting
 wordpress_id: 99
+preface: Published by Thomas Schöps in 2012
 ---
 
-[Download here!](http://sourceforge.net/projects/oorienteering/files/Betting/betting_2012-03-27.zip/download) (**Note**: this project is available in German only, sorry!)
+[Download here!](http://sourceforge.net/projects/oorienteering/files/Betting/) (**Note**: this project is available in German only, sorry!)
 
 The **betting system** is a web application using PHP and MySQL which makes it possible to set up betting contests for orienteering races. It works together with the SportSoftware programs OE2003 and OE2010, relay races are not supported. Creating a new contest and calculating the results is as easy as generating and uploading a CSV export file from the SportSoftware application.
 
