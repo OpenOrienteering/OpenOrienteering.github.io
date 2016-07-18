@@ -44,7 +44,7 @@ While it is under continuous development and considered in beta state, it has be
     <div class="panel-heading" role="tab" id="heading-unstable-release">
       <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#release-selection" href="#collapse-unstable-release" aria-expanded="false" aria-controls="collapse-unstable-release">
-          Development snapshots
+          Unstable (development snapshots)
         </a>
       </h4>
     </div>
@@ -52,6 +52,7 @@ While it is under continuous development and considered in beta state, it has be
       <ul class="list-group">
         <li class="list-group-item">
         <p>These Windows and Linux packages are updated shortly after changes are published on Github. They may contain unstable code. Please take care (i.e. backups) of your map files when working with the unstable packages. See the known issues for unstable.</p>
+        <p>At the moment, only the unstable packages contain GDAL. The Windows package also includes Qt Linguist for translating Mapper.</p>
         <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...master">Changes since {{ page.release.version }}</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20unstable%22">Known issues</a></p>
         </li>
