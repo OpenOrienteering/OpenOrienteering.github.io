@@ -129,7 +129,11 @@ The [online manual](http://www.openorienteering.org/mapper-manual/) can give you
 **Contributing**
 
 There is a lot to do, and we appreciate every kind of help, whether you are a programmer or not. If you are interested in contributing, good places to start are:
-	
+
+  * [Translation repository](https://hosted.weblate.org/engage/openorienteering/) for online translation<br/>
+    <a href="https://hosted.weblate.org/engage/openorienteering/?utm_source=widget">
+<img src="https://hosted.weblate.org/widgets/openorienteering/-/287x66-grey.png" alt="Translation status" />
+</a>
   * [Git repository](https://github.com/OpenOrienteering/mapper) containing the latest source code
   * [Manual repository](https://github.com/OpenOrienteering/mapper-manual)
   * [Ticket system](https://github.com/OpenOrienteering/mapper/issues) showing tasks that have to be done, and the right place to report bugs
