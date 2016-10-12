@@ -19,7 +19,7 @@ While it is under continuous development and considered in beta state, it has be
 
 [User reviews &#9733;&#9733;&#9733;&#9733;&#9733;](user-reviews.html)
 
-
+[Online manual](http://www.openorienteering.org/mapper-manual/)
 
 <div class="panel-group" id="release-selection" role="tablist" aria-multiselectable="true">
   <div class="panel panel-info">
