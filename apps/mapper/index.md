@@ -5,9 +5,9 @@ title: Mapper
 icon: Mapper-128.png
 favicon: Mapper-32.png
 release:
-   version:      0.6.5
-   announcement: http://www.openorienteering.org/news/2016/mapper-0.6.5-released
-   predecessor:  0.6.4
+   version:      0.6.6
+   announcement: http://www.openorienteering.org/news/2016/mapper-0.6.6-released
+   predecessor:  0.6.5
 ---
 
 OpenOrienteering Mapper is an orienteering mapmaking program and provides a free alternative to the existing proprietary solution. Its main advantages compared to it are:
@@ -37,7 +37,7 @@ While it is under continuous development and considered in beta state, it has be
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=milestone:v{{ page.release.version }}+is:closed">Resolved issues</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.predecessor }}...v{{ page.release.version }}">Source code changes since {{ page.release.predecessor }}</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=label:%22known%20issues%20v{{ page.release.version }}%22">Known issues in {{ page.release.version }}</a></p>
-        <p><a class="btn btn-primary btn-lg" href="https://github.com/OpenOrienteering/mapper/releases/v{{ page.release.version }}" role="button">Download Mapper {{ page.release.version }} &raquo;</a></p>
+        <p><a class="btn btn-primary btn-lg" href="https://github.com/OpenOrienteering/mapper/releases/latest" role="button">Download Mapper {{ page.release.version }} &raquo;</a></p>
       </div>
     </div>
   </div>
@@ -72,6 +72,7 @@ While it is under continuous development and considered in beta state, it has be
     </div>
     <div id="collapse-release-history" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-release-history">
       <ul class="list-group">
+        <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.6.6">0.6.6</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.6.5">0.6.5</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.6.4">0.6.4</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.6.3">0.6.3</a></li>
