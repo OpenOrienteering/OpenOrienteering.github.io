@@ -58,7 +58,8 @@ While it is under continuous development and considered in beta state, it has be
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20unstable%22">Known issues</a></p>
         </li>
         <li class="list-group-item"><a href="http://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows Installer (.exe) and self-extracting archive (.sfx.exe) for x64 and x86</a></li>
-        <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable">Linux packages</a></li>
+        <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable">Linux packages</a><br />
+	(There seems to be a service outage at software.opensuse.org. <a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Alternative...</a>)</li>
       </ul>
     </div>
   </div>
