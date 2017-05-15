@@ -59,7 +59,7 @@ While it is under continuous development and considered in beta state, it has be
         </li>
         <li class="list-group-item"><a href="http://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows Installer (.exe) and self-extracting archive (.sfx.exe) for x64 and x86</a></li>
         <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable">Linux packages</a><br />
-	(There seems to be a service outage at software.opensuse.org. <a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Alternative...</a>)</li>
+	(There seems to be a service outage at software.opensuse.org. <a href="https://download.opensuse.org/repositories/home:/dg0yt/">Alternative...</a>)</li>
       </ul>
     </div>
   </div>
