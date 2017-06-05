@@ -12,8 +12,8 @@ release:
 
 OpenOrienteering Mapper is an orienteering mapmaking program and provides a free alternative to the existing proprietary solution. Its main advantages compared to it are:
 	
-  * Open Source: the program is completely free, every programmer can improve it.
-  * Cross-platform: the program works on Android, Windows, OS X and Linux.
+  * Open Source: The program is completely free, every programmer can improve it.
+  * Cross-platform: The program works on Android, Windows, macOS and Linux.
 
 While it is under continuous development and considered in beta state, it has been used to produce maps for classical orienteering, MTBO and radio orienteering races. All required functions for drawing maps are implemented and the program works very stable. So it can be considered ready for productive use, although it is like always a good idea to keep backups of your files. We are happy about feedback to the program.
 
@@ -110,14 +110,14 @@ While it is under continuous development and considered in beta state, it has be
 
 **Main features** of the current version include:
 	
-  * Symbol sets for ISOM 2000 (forest), ISSOM 2007 (sprint), ISMTBOM (mountain bike), ISSkiOM (ski),
+  * Symbol sets for ISOM2000 (forest), ISSOM2007 (sprint), ISMTBOM (mountain bike), ISSkiOM (ski),
     and for course design and control description sheets
-  * Import and export of ocd maps and symbol sets (import: version 6 - 11, export: version 8)
+  * Import and export of ocd maps and symbol sets (import: version 6 - 12, export: version 8)
   * Georeferencing (based on Proj.4 library)
   * Working with various kinds of templates:
     * Images (bmp, jpg, tif, png, gif)
     * GPS tracks (gpx)
-    * Vector data (dxf, osm)
+    * Vector data (dxf, osm, shp)
     * Maps (ocd, omap, xmap)
     * Georeferencing of templates by world file
   * Working with all important symbol types:
