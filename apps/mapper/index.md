@@ -54,7 +54,7 @@ While it is under continuous development and considered in beta state, it has be
         <li class="list-group-item">
         <p>These Windows and Linux packages are updated shortly after changes are published on Github. They may contain unstable code. Please take care (i.e. backups) of your map files when working with the unstable packages. See the known issues for unstable.</p>
         <p>At the moment, only the unstable packages contain GDAL. The Windows package also includes Qt Linguist for translating Mapper.</p>
-        <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...master">Changes since {{ page.release.version }}</a>
+        <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...dev">Changes since {{ page.release.version }}</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20unstable%22">Known issues</a></p>
         </li>
         <li class="list-group-item"><a href="http://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows Installer (.exe) and self-extracting archive (.sfx.exe) for x64 and x86</a></li>
