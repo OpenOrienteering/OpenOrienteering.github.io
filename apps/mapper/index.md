@@ -52,13 +52,17 @@ While it is under continuous development and considered in beta state, it has be
     <div id="collapse-unstable-release" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-unstable-release">
       <ul class="list-group">
         <li class="list-group-item">
-        <p>These Windows and Linux packages are updated shortly after changes are published to the development branch on Github. They may contain unstable code. Please take care (i.e. backups) of your map files when working with the unstable packages. See the known issues for unstable.</p>
+        <p>The following Windows and Linux packages are updated shortly after changes are published to the development branch on Github. They may contain unstable code. Please take care (i.e. backups) of your map files when working with the unstable packages. See the known issues for unstable.</p>
         <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...dev">Changes since {{ page.release.version }}</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20unstable%22">Known issues</a></p>
         </li>
         <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows Installer (.exe) and self-extracting archive (.sfx.exe) for x64 and x86</a></li>
         <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable">Linux packages</a><br />
 	<a href="https://download.opensuse.org/repositories/home:/dg0yt/">Alternative...</a></li>
+        <li class="list-group-item">
+          <h5>Preview releases</h5>
+          <p>Occasionally, distinct preview releases are made available also for macOS and Android, in preparation for the next stable release. Details and binaries are published at the top of our <a href="https://github.com/OpenOrienteering/mapper/releases">Github releases page</a>.</p>
+        </li>
       </ul>
     </div>
   </div>
