@@ -33,7 +33,7 @@ While it is under continuous development and considered in beta state, it has be
     </div>
     <div id="collapse-stable-release" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading-stable-release">
       <div class="panel-body">
-        <p>The current recommended version for PC and Android is <b>Mapper {{ page.release.version }}</b>.</p>
+        <p>The current release version for PC and Android is <b>Mapper {{ page.release.version }}</b>.</p>
         <p><a href="{{ page.release.announcement }}">Release announcement</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=milestone:v{{ page.release.version }}+is:closed">Resolved issues</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.predecessor }}...v{{ page.release.version }}">Source code changes since {{ page.release.predecessor }}</a>
@@ -46,18 +46,19 @@ While it is under continuous development and considered in beta state, it has be
     <div class="panel-heading" role="tab" id="heading-master-release">
       <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#release-selection" href="#collapse-master-release" aria-expanded="false" aria-controls="collapse-master-release">
-          Master (Pre-releases)
+          Master (Pre-releases and bug fixes)
         </a>
       </h4>
     </div>
     <div id="collapse-master-release" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-master-release">
       <ul class="list-group">
         <li class="list-group-item">
-        <p>The following Windows and Linux packages are updated shortly after changes are published to the stable branch (_master_) on Github. They may contain bug fixes for the previous stable release, or provide a fairly stable preview of the coming release. See the known issues for latest pre-release.</p>
+        <p>The following Windows and Linux packages are updated shortly after changes are published to the stable branch (<i>master</i>) on Github. They may contain bug fixes for the previous stable release, or provide a fairly stable preview of the coming release. See the known issues for latest pre-release.</p>
         <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...master">Changes since {{ page.release.version }}</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20{{ page.release.master }}%22">Known issues</a></p>
         </li>
-        <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows Installer (.exe) and self-extracting archive (.sfx.exe) for x64 and x86</a></li>
+        <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows packages and PDF manual: <tt>OpenOrienteering-Mapper-master-...</tt><br />
+	  Installer (.exe), self-extracting archive (.sfx.exe), and ZIP archive (.zip) for x64 and x86</a></li>
         <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-master">Linux packages</a><br />
 	<a href="https://download.opensuse.org/repositories/home:/dg0yt/">Alternative...</a></li>
         <li class="list-group-item">
@@ -77,11 +78,12 @@ While it is under continuous development and considered in beta state, it has be
     <div id="collapse-unstable-release" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-unstable-release">
       <ul class="list-group">
         <li class="list-group-item">
-        <p>The following Windows and Linux packages are updated shortly after changes are published to the development branch (_dev_) on Github. They may contain unstable code. Please take care (i.e. backups) of your map files when working with the unstable packages. See the known issues for unstable.</p>
+        <p>The following Windows and Linux packages are updated shortly after changes are published to the development branch (<i>dev</i>) on Github. They may contain unstable code. Please take care (i.e. backups) of your map files when working with the unstable packages. See the known issues for unstable.</p>
         <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...dev">Changes since {{ page.release.version }}</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20unstable%22">Known issues</a></p>
         </li>
-        <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows Installer (.exe) and self-extracting archive (.sfx.exe) for x64 and x86</a></li>
+        <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows packages: <tt>OpenOrienteering-Mapper-unstable-...</tt><br />
+	  Installer (.exe), self-extracting archive (.sfx.exe), and ZIP archive (.zip) for x64 and x86</a></li>
         <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable">Linux packages</a><br />
 	<a href="https://download.opensuse.org/repositories/home:/dg0yt/">Alternative...</a></li>
       </ul>
