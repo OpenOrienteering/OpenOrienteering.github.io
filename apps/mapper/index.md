@@ -57,8 +57,8 @@ While it is under continuous development and considered in beta state, it has be
         <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...master">Changes since {{ page.release.version }}</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20{{ page.release.master }}%22">Known issues</a></p>
         </li>
-        <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows packages and PDF manual: <tt>OpenOrienteering-Mapper-master-...</tt><br />
-	  Installer (.exe), self-extracting archive (.sfx.exe), and ZIP archive (.zip) for x64 and x86</a></li>
+        <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows packages and PDF manual: <tt>OpenOrienteering-Mapper-master-...</tt></a><br />
+	  Installer (.exe), self-extracting archive (.sfx.exe), and ZIP archive (.zip) for x64 and x86</li>
         <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-master">Linux packages</a><br />
 	<a href="https://download.opensuse.org/repositories/home:/dg0yt/">Alternative...</a></li>
         <li class="list-group-item">
@@ -82,8 +82,8 @@ While it is under continuous development and considered in beta state, it has be
         <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...dev">Changes since {{ page.release.version }}</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20unstable%22">Known issues</a></p>
         </li>
-        <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows packages: <tt>OpenOrienteering-Mapper-unstable-...</tt><br />
-	  Installer (.exe), self-extracting archive (.sfx.exe), and ZIP archive (.zip) for x64 and x86</a></li>
+        <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows packages: <tt>OpenOrienteering-Mapper-unstable-...</tt></a><br />
+	  Installer (.exe), self-extracting archive (.sfx.exe), and ZIP archive (.zip) for x64 and x86</li>
         <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable">Linux packages</a><br />
 	<a href="https://download.opensuse.org/repositories/home:/dg0yt/">Alternative...</a></li>
       </ul>
