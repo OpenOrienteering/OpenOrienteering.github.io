@@ -5,6 +5,7 @@ title: Mapper
 icon: Mapper-128.png
 favicon: Mapper-32.png
 release:
+   master:       v0.7.93
    version:      0.7.0
    announcement: http://www.openorienteering.org/news/2017/mapper-v0.7.0-released
    predecessor:  0.6.8
@@ -41,6 +42,30 @@ While it is under continuous development and considered in beta state, it has be
       </div>
     </div>
   </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading-master-release">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#release-selection" href="#collapse-master-release" aria-expanded="false" aria-controls="collapse-master-release">
+          Master (Pre-releases)
+        </a>
+      </h4>
+    </div>
+    <div id="collapse-master-release" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-master-release">
+      <ul class="list-group">
+        <li class="list-group-item">
+        <p>The following Windows and Linux packages are updated shortly after changes are published to the stable branch (_master_) on Github. They may contain bug fixes for the previous stable release, or provide a fairly stable preview of the coming release. See the known issues for latest pre-release.</p>
+        <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...master">Changes since {{ page.release.version }}</a>
+        <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20{{ page.release.master }}%22">Known issues</a></p>
+        </li>
+        <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows Installer (.exe) and self-extracting archive (.sfx.exe) for x64 and x86</a></li>
+        <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-master">Linux packages</a><br />
+	<a href="https://download.opensuse.org/repositories/home:/dg0yt/">Alternative...</a></li>
+        <li class="list-group-item">
+          Occasionally, distinct preview releases are made available also for macOS and Android, in preparation for the next stable release. Details and binaries are published at the top of our <a href="https://github.com/OpenOrienteering/mapper/releases">Github releases page</a>.
+        </li>
+      </ul>
+    </div>
+  </div>
   <div class="panel panel-danger">
     <div class="panel-heading" role="tab" id="heading-unstable-release">
       <h4 class="panel-title">
@@ -52,17 +77,13 @@ While it is under continuous development and considered in beta state, it has be
     <div id="collapse-unstable-release" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-unstable-release">
       <ul class="list-group">
         <li class="list-group-item">
-        <p>The following Windows and Linux packages are updated shortly after changes are published to the development branch on Github. They may contain unstable code. Please take care (i.e. backups) of your map files when working with the unstable packages. See the known issues for unstable.</p>
+        <p>The following Windows and Linux packages are updated shortly after changes are published to the development branch (_dev_) on Github. They may contain unstable code. Please take care (i.e. backups) of your map files when working with the unstable packages. See the known issues for unstable.</p>
         <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...dev">Changes since {{ page.release.version }}</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20unstable%22">Known issues</a></p>
         </li>
         <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows Installer (.exe) and self-extracting archive (.sfx.exe) for x64 and x86</a></li>
         <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable">Linux packages</a><br />
 	<a href="https://download.opensuse.org/repositories/home:/dg0yt/">Alternative...</a></li>
-        <li class="list-group-item">
-          <h5>Preview releases</h5>
-          <p>Occasionally, distinct preview releases are made available also for macOS and Android, in preparation for the next stable release. Details and binaries are published at the top of our <a href="https://github.com/OpenOrienteering/mapper/releases">Github releases page</a>.</p>
-        </li>
       </ul>
     </div>
   </div>
