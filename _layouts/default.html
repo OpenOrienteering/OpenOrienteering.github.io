@@ -64,6 +64,16 @@
             <img src="{{ page.icon }}" />
           </div>
 {% else %}
+          <form class="form-inline" action="https://metager.de/en/meta/meta.ger3" method="get" accept-charset="UTF-8">
+            <div class="form-group">
+              <label class="sr-only" for="eingabe">Search & and find safely with MetaGer"</label>
+              <div class="input-group">
+                <div class="input-group-addon"><a title="Search & and find safely with MetaGer" href="https://metager.de/en">MetaGer</a></div>
+                <input type="text" class="form-control" id="eingabe" placeholder="Search with MetaGer...">
+                <button type="submit" class="btn btn-primary">Search</button>
+              </div>
+            </div>
+          </form>
 {%   include openorienteering/paginator_pager_vertical.html %}
 {% endif %}
         </div>
