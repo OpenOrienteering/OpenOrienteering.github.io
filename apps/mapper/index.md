@@ -5,10 +5,10 @@ title: Mapper
 icon: Mapper-128.png
 favicon: Mapper-32.png
 release:
-   master:       v0.7.93
-   version:      0.7.0
-   announcement: http://www.openorienteering.org/news/2017/mapper-v0.7.0-released
-   predecessor:  0.6.8
+   master:       v0.8.0
+   version:      0.8.0
+   announcement: http://www.openorienteering.org/news/2018/mapper-v0.8.0-released
+   predecessor:  0.7.0
 ---
 
 OpenOrienteering Mapper is an orienteering mapmaking program and provides a free alternative to the existing proprietary solution. Its main advantages compared to it are:
@@ -99,6 +99,7 @@ While it is under continuous development and considered in beta state, it has be
     </div>
     <div id="collapse-release-history" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-release-history">
       <ul class="list-group">
+        <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.8.0">0.8.0</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.7.0">0.7.0</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.6.8">0.6.8</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.6.7">0.6.7</a></li>
