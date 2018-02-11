@@ -1,0 +1,31 @@
+---
+author: Kai Pastor
+date: 2018-02-11 18:19:00+01:00
+layout: post
+title: Mapper 0.8.0 released
+categories:
+- Mapper
+- Releases
+---
+
+We are proud to offer a you a new release which marks a significant step forward. This release brings ISOM2017 symbol sets, adding some new features to symbols where needed. For replacing symbols, but also for importing data e.g. from OpenStreetMap files, you may now use CRT files. A simple but effective query language helps you to identify objects beyond code numbers and layer names.
+
+Not only with Android users in mind, a lot of work was done on symbol icon appearance. Especially on Android, you will benefit from the possiblity to change the symbol icon size. But you may now also hide or protected symbols in the mobile app. When drawing in the field, jump to your current location with just one touch, or switch easily to 1x or 2x zoom. Generally when drawing, you may now see azimuth and distance information if desired.
+
+The symbol sets were integrated into the same system of online translation as the Mapper user interface, facilitating contributions. On the documentation side, there is now a PDF version of the manual.
+
+A small selection of other changes:
+
+- Improved symbol icons also when exporting to OCD.
+- A "Find" dialog which can be used for complex queries for textual properties.
+- Modified pattern clipping (change in file format)
+- Modified dash symbol scaling (change in file format)
+- More robust template loading, reducing memory related issues on Android
+
+Find [the resolved issues on Github](https://github.com/OpenOrienteering/mapper/issues?q=milestone:v0.8.0+is:closed).
+[Known issues in v0.8.0](https://github.com/OpenOrienteering/mapper/issues?q=label:"known%20issues%20v0.8.0") will be collected there, too. 
+The release contains [786 commits since 0.7.0, changing 583 source files, contributed by 27 persons](https://github.com/OpenOrienteering/mapper/compare/v0.7.0...v0.8.0).
+
+Thanks to all the contributors!
+
+<a class="btn btn-primary" href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.8.0">Downloads</a>
