@@ -33,6 +33,6 @@ release 0.9.
   (Installer (.exe) and ZIP archive (.zip) for x64 and x86
 - [Linux packages](https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable)
 - [Changes ahead of the stable branch](https://github.com/OpenOrienteering/mapper/compare/master...dev)
-- [Known issues in unstable](https://github.com/OpenOrienteering/mapper/issues?q=is:open label:"known issuesunstable")
+- [Known issues in unstable](https://github.com/OpenOrienteering/mapper/issues?q=is:open+label:"known+issues+unstable")
 - [OCD export/import project dashboard](https://github.com/OpenOrienteering/mapper/projects/3)
 
