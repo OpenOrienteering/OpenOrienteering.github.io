@@ -29,8 +29,8 @@ Please take care (i.e. backups) of your map files when working with the unstable
 packages. If you find issues, please report them, so that they get fixed before
 release 0.9.
 
-- [Windows packages: *OpenOrienteering-Mapper-unstable-...*](https://download.opensuse.org/repositories/home:/dg0yt/Windows/)
-  (Installer (.exe) and ZIP archive (.zip) for x64 and x86
+- [Windows packages: *OpenOrienteering-Mapper-unstable-...*](https://download.opensuse.org/repositories/home:/dg0yt/Windows/)   
+  (Installer (.exe) and ZIP archive (.zip) for x64 and x86)
 - [Linux packages](https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable)
 - [Changes ahead of the stable branch](https://github.com/OpenOrienteering/mapper/compare/master...dev)
 - [Known issues in unstable](https://github.com/OpenOrienteering/mapper/issues?q=is:open+label:"known+issues+unstable")
