@@ -5,10 +5,9 @@ title: Mapper
 icon: Mapper-128.png
 favicon: Mapper-32.png
 release:
-   master:       v0.8.1
-   version:      0.8.1
-   announcement: http://www.openorienteering.org/news/2018/mapper-v0.8.1-released
-   predecessor:  0.8.0
+   version:      0.8.2
+   announcement: https://www.openorienteering.org/news/2018/mapper-v0.8.2-released
+   predecessor:  0.8.1
 ---
 
 OpenOrienteering Mapper is an orienteering mapmaking program and provides a free alternative to the existing proprietary solution. Its main advantages compared to it are:
@@ -20,7 +19,7 @@ While it is under continuous development and considered in beta state, it has be
 
 [User reviews &#9733;&#9733;&#9733;&#9733;&#9733;](user-reviews.html)
 
-[Online manual](http://www.openorienteering.org/mapper-manual/)
+[Online manual](https://www.openorienteering.org/mapper-manual/)
 
 <div class="panel-group" id="release-selection" role="tablist" aria-multiselectable="true">
   <div class="panel panel-info">
@@ -55,7 +54,7 @@ While it is under continuous development and considered in beta state, it has be
         <li class="list-group-item">
         <p>The following Windows and Linux packages are updated shortly after changes are published to the stable branch (<i>master</i>) on Github. They may contain bug fixes for the previous stable release, or provide a fairly stable preview of the coming release. See the known issues for latest pre-release.</p>
         <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...master">Changes since {{ page.release.version }}</a>
-        <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20{{ page.release.master }}%22">Known issues</a></p>
+        <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20v{{ page.release.version }}%22">Known issues</a></p>
         </li>
         <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows packages and PDF manual: <tt>OpenOrienteering-Mapper-master-...</tt></a><br />
 	  Installer (.exe), self-extracting archive (.sfx.exe), and ZIP archive (.zip) for x64 and x86</li>
@@ -99,7 +98,8 @@ While it is under continuous development and considered in beta state, it has be
     </div>
     <div id="collapse-release-history" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-release-history">
       <ul class="list-group">
-        <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.8.0">0.8.1</a></li>
+        <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.8.2">0.8.2</a></li>
+        <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.8.1">0.8.1</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.8.0">0.8.0</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.7.0">0.7.0</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.6.8">0.6.8</a></li>
@@ -159,7 +159,7 @@ While it is under continuous development and considered in beta state, it has be
     * CMYK PDF export (vector output)
   * Translated into more than 20 languages
 
-The [online manual](http://www.openorienteering.org/mapper-manual/) can give you more ideas of what the program does.  
+The [online manual](https://www.openorienteering.org/mapper-manual/) can give you more ideas of what the program does.  
 
 
 **Contributing**
