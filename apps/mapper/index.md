@@ -78,7 +78,7 @@ While it is under continuous development and considered in beta state, it has be
       <ul class="list-group">
         <li class="list-group-item">
         <p>The following Windows and Linux packages are updated shortly after changes are published to the development branch (<i>dev</i>) on Github. They may contain unstable code. Please take care (i.e. backups) of your map files when working with the unstable packages. See the known issues for unstable.</p>
-        <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...dev">Changes since {{ page.release.version }}</a>
+        <p><a href="https://github.com/OpenOrienteering/mapper/compare/master...dev">Changes from `master` to `dev`</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20unstable%22">Known issues</a></p>
         </li>
         <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows packages: <tt>OpenOrienteering-Mapper-unstable-...</tt></a><br />
