@@ -1,0 +1,24 @@
+---
+author: Kai Pastor
+date: 2018-08-11 16:45:00+02:00
+layout: post
+title: Mapper 0.8.2 released
+categories:
+- Mapper
+- Releases
+---
+
+This patch release contains bug fixes and updated translations. Key changes:
+
+- When exporting to OCD, template paths containing umlauts etc. (ÖÄÅ...) now properly use the 8-bit encoding (#1046).
+- When exporting to OCD, Mapper now tries to load hidden georeferenced images templates so that the position can be saved correctly.
+- The special color "Registration Black" is now correctly saved for all point symbol elements (#1086).
+- The icon for the delete-objects tool is now a trash bin.
+
+Find [the resolved issues on Github](https://github.com/OpenOrienteering/mapper/issues?q=milestone:v0.8.2+is:closed).  
+[Known issues in v0.8.2](https://github.com/OpenOrienteering/mapper/issues?q=label:"known%20issues%20v0.8.2") will be collected there, too.  
+The release contains [162 commits since 0.8.1, changing 81 source files, contributed by 27 persons](https://github.com/OpenOrienteering/mapper/compare/v0.8.1...v0.8.2).
+
+Thanks to all the contributors!
+
+<a class="btn btn-primary" href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.8.2">Downloads</a>
