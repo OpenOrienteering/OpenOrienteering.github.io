@@ -60,9 +60,6 @@ While it is under continuous development and considered in beta state, it has be
 	  Installer (.exe), self-extracting archive (.sfx.exe), and ZIP archive (.zip) for x64 and x86</li>
         <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-master">Linux packages</a><br />
 	<a href="https://download.opensuse.org/repositories/home:/dg0yt/">Alternative...</a></li>
-        <li class="list-group-item">
-          Occasionally, distinct preview releases are made available also for macOS and Android, in preparation for the next stable release. Details and binaries are published at the top of our <a href="https://github.com/OpenOrienteering/mapper/releases">Github releases page</a>.
-        </li>
       </ul>
     </div>
   </div>
@@ -85,6 +82,9 @@ While it is under continuous development and considered in beta state, it has be
 	  Installer (.exe), self-extracting archive (.sfx.exe), and ZIP archive (.zip) for x64 and x86</li>
         <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable">Linux packages</a><br />
 	<a href="https://download.opensuse.org/repositories/home:/dg0yt/">Alternative...</a></li>
+        <li class="list-group-item">
+          Occasionally, distinct preview releases are made available also for macOS and Android, in preparation for the next stable release. Details and binaries are published as "Pre-release" on our <a href="https://github.com/OpenOrienteering/mapper/releases">Github releases page</a>.
+        </li>
       </ul>
     </div>
   </div>
