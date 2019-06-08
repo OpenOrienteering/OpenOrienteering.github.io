@@ -79,7 +79,7 @@ While it is under continuous development and considered in beta state, it has be
         - <a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20unstable%22">Known issues</a>
         </li>
         <li class="list-group-item">
-        <b>New!</b> Packages based on the unstable code in the <tt>dev</tt> branch are available for Android, macOS and Windows as "Pre-release" named like "dev YYYYMMDD.No" on our <a href="https://github.com/OpenOrienteering/mapper/releases">Github releases page</a>.
+        <b>New!</b> Packages based on the unstable code in the <tt>dev</tt> branch are available for Android, macOS and Windows as "Pre-release" named like "dev vYYYYMMDD.No" on our <a href="https://github.com/OpenOrienteering/mapper/releases">Github releases page</a>.
         </li>
         <li class="list-group-item">
           Linux packages based on the unstable code in the <tt>dev</tt> branch are available from the 
