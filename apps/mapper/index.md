@@ -74,17 +74,18 @@ While it is under continuous development and considered in beta state, it has be
     <div id="collapse-unstable-release" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-unstable-release">
       <ul class="list-group">
         <li class="list-group-item">
-        <p>The following Windows and Linux packages are updated shortly after changes are published to the development branch (<i>dev</i>) on Github. They may contain unstable code. Please take care (i.e. backups) of your map files when working with the unstable packages. See the known issues for unstable.</p>
-        <p><a href="https://github.com/OpenOrienteering/mapper/compare/master...dev">Changes from `master` to `dev`</a>
-        <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20unstable%22">Known issues</a></p>
+        <b>Warning:</b> These packages may contain unstable code. Please take care (i.e. backups) of your map files when working with the unstable packages. Note the known issues.<br />
+        - <a href="https://github.com/OpenOrienteering/mapper/compare/master...dev">Changes from <tt>master</tt> to <tt>dev</tt></a><br />
+        - <a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20unstable%22">Known issues</a>
         </li>
-        <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows packages: <tt>OpenOrienteering-Mapper-unstable-...</tt></a><br />
-	  Installer (.exe), self-extracting archive (.sfx.exe), and ZIP archive (.zip) for x64 and x86</li>
-        <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable">Linux packages</a><br />
-	<a href="https://download.opensuse.org/repositories/home:/dg0yt/">Alternative...</a></li>
         <li class="list-group-item">
-          Occasionally, distinct preview releases are made available also for macOS and Android, in preparation for the next stable release. Details and binaries are published as "Pre-release" on our <a href="https://github.com/OpenOrienteering/mapper/releases">Github releases page</a>.
+        <b>New!</b> Packages based on the unstable code in the <tt>dev</tt> branch are available for Android, macOS and Windows as "Pre-release" named like "dev YYYYMMDD.No" on our <a href="https://github.com/OpenOrienteering/mapper/releases">Github releases page</a>.
         </li>
+        <li class="list-group-item">
+          Linux packages based on the unstable code in the <tt>dev</tt> branch are available from the 
+          <a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable">Open Build Service</a>
+          (<a href="https://download.opensuse.org/repositories/home:/dg0yt/">alternative access</a>).
+        </li>	
       </ul>
     </div>
   </div>
