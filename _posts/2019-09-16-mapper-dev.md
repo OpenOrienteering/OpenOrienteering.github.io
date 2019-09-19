@@ -32,4 +32,4 @@ Mapper 0.9.0.
 There is work-in-progress on ISSprOM 2019 and ISOM 2017-2 symbol sets, but these
 are not included yet.
 
-<a class="btn btn-primary" href="https://github.com/OpenOrienteering/mapper/releases/tag/dev-v20190915.17">Download dev v20190915.17</a>
+{% include download tag="dev-v20190915.17" %}

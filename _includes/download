@@ -1,0 +1,20 @@
+{% comment %}<!--
+
+  Create Download buttons for tags
+
+  Example:
+
+    {% include download tag="v0.8.4" class="btn-large" %}
+
+  Template for Copy and Paste:
+
+    {% include download tag="" class="" %}
+
+-->{% endcomment %}
+{% if include.tag %}
+<p><a id="button-download-{{ include.tag }}" class="btn btn-primary {{ include.class }}" href="https://github.com/OpenOrienteering/mapper/releases/tag/{{ include.tag }}">Download {{ include.tag }} &raquo;</a></p>
+<script src="/assets/openorienteering/downloadButton.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() { updateDownloadButton('{{ include.tag }}'); });
+</script>
+{% endif %}

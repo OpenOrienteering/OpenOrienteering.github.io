@@ -37,7 +37,8 @@ While it is under continuous development and considered in beta state, it has be
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=milestone:v{{ page.release.version }}+is:closed">Resolved issues</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.predecessor }}...v{{ page.release.version }}">Source code changes since {{ page.release.predecessor }}</a>
         <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=label:%22known%20issues%20v{{ page.release.version }}%22">Known issues in {{ page.release.version }}</a></p>
-        <p><a class="btn btn-primary btn-lg" href="https://github.com/OpenOrienteering/mapper/releases/latest" role="button">Download Mapper {{ page.release.version }} &raquo;</a></p>
+        {% capture release_tag %}v{{ page.release.version }}{% endcapture %}
+        {% include download tag=release_tag class="btn-lg" %}
       </div>
     </div>
   </div>
