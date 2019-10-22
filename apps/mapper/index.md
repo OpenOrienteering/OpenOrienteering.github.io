@@ -5,9 +5,9 @@ title: Mapper
 icon: Mapper-128.png
 favicon: Mapper-32.png
 release:
-   version:      0.8.4
-   announcement: https://www.openorienteering.org/news/2018/mapper-v0.8.4-released
-   predecessor:  0.8.3
+   version:      0.9.0
+   announcement: https://www.openorienteering.org/news/2019/mapper-v0.9.0-released
+   predecessor:  0.8.4
 ---
 
 OpenOrienteering Mapper is an orienteering mapmaking program and provides a free alternative to the existing proprietary solution. Its main advantages compared to it are:
@@ -100,6 +100,7 @@ While it is under continuous development and considered in beta state, it has be
     </div>
     <div id="collapse-release-history" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-release-history">
       <ul class="list-group">
+        <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.9.0">0.9.0</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.8.4">0.8.4</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.8.3">0.8.3</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.8.2">0.8.2</a></li>
@@ -142,28 +143,28 @@ While it is under continuous development and considered in beta state, it has be
 
 **Main features** of the current version include:
 	
-  * Symbol sets for ISOM2017 and ISOM2000 (forest), ISSOM2007 (sprint), ISMTBOM (mountain bike), ISSkiOM (ski),
+  * Symbol sets for ISOM 2017-2 and ISOM2000 (forest), ISSOM2007 (sprint), ISMTBOM (mountain bike), ISSkiOM (ski),
     and for course design and control description sheets
-  * Import and export of ocd maps and symbol sets (import: version 6 - 12, export: version 8)
-  * Georeferencing (based on Proj.4 library)
+  * Import and export of ocd maps and symbol sets (import: version 6 - 2018, export: version 8 - 12)
+  * Georeferencing (based on PROJ library)
   * Working with various kinds of templates:
-    * Raster images (bmp, jpg, tif, png, gif), including world files
+    * Raster images (bmp, jpg, tif, png, gif), including world files and GeoTIFF
     * GPS tracks (gpx)
-    * Vector data (dxf, osm, shp)
-    * Maps (ocd, omap, xmap)
+    * Vector data (dxf, osm, shp etc. based on GDAL library)
+    * Maps (ocd, omap)
   * Working with all important symbol types:
     * Points
     * Lines
     * Areas
     * Text
     * Composite symbols
-  * Drawing and many editing tools for objects
+  * Drawing tools and many editing tools for objects
   * Printing, PDF and raster image export for getting the map into course setting programs
     * Overprinting simulation (raster output)
     * CMYK PDF export (vector output)
   * Translated into more than 20 languages
 
-The [online manual](https://www.openorienteering.org/mapper-manual/) can give you more ideas of what the program does.  
+The [online manual](https://www.openorienteering.org/mapper-manual/) can give you more ideas of what the program does.
 
 
 **Contributing**
