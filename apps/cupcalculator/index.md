@@ -5,10 +5,9 @@ date: 2011-10-28 21:19:45+00:00
 layout: page
 slug: cupcalculator
 title: CupCalculator
-wordpress_id: 24
 ---
 
-**[Download here!](https://sourceforge.net/projects/oorienteering/files/CupCalculator/)**
+**[Download (Windows 32-bit](https://github.com/OpenOrienteering/cupcalculator/releases/download/v1.1.2/OpenOrienteering-CupCalculator-1.1.2-Windows.zip)**
 
 **CupCalculator** is a program which calculates scorings from race results. It takes the runners' race times and calculates points for every runner (and optionally also for teams) according to a set of rules which are specified in advance. This makes the point calculation a matter of a few clicks.
 
