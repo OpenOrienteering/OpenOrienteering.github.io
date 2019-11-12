@@ -8,6 +8,7 @@ release:
    version:      0.9.0
    announcement: https://www.openorienteering.org/news/2019/mapper-v0.9.0-released
    predecessor:  0.8.4
+   master:       v20191108.3
 ---
 
 OpenOrienteering Mapper is an orienteering mapmaking program and provides a free alternative to the existing proprietary solution. Its main advantages compared to it are:
@@ -53,14 +54,11 @@ While it is under continuous development and considered in beta state, it has be
     <div id="collapse-master-release" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-master-release">
       <ul class="list-group">
         <li class="list-group-item">
-        <p>The following Windows and Linux packages are updated shortly after changes are published to the stable branch (<i>master</i>) on Github. They may contain bug fixes for the previous stable release, or provide a fairly stable preview of the coming release. See the known issues for latest pre-release.</p>
-        <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...master">Changes since {{ page.release.version }}</a>
-        <br/><a href="https://github.com/OpenOrienteering/mapper/issues?q=is:open%20label:%22known%20issues%20v{{ page.release.version }}%22">Known issues</a></p>
+        <p>The following Windows and Linux packages contain bug fixes for the previous stable release, or provide a fairly stable preview of the coming release.</p>
+        {% capture master_tag %}master-v{{ page.release.master }}{% endcapture %}
+        <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...{{ page.release.master }}">Changes since {{ page.release.version }}</a></p>
+        {% include download tag=master_tag class="btn-lg" %}
         </li>
-        <li class="list-group-item"><a href="https://download.opensuse.org/repositories/home:/dg0yt/Windows/">Windows packages and PDF manual: <tt>OpenOrienteering-Mapper-master-...</tt></a><br />
-	  Installer (.exe), self-extracting archive (.sfx.exe), and ZIP archive (.zip) for x64 and x86</li>
-        <li class="list-group-item"><a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-master">Linux packages</a><br />
-	<a href="https://download.opensuse.org/repositories/home:/dg0yt/">Alternative...</a></li>
       </ul>
     </div>
   </div>
