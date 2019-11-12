@@ -56,8 +56,13 @@ While it is under continuous development and considered in beta state, it has be
         <li class="list-group-item">
         <p>The following Windows and Linux packages contain bug fixes for the previous stable release, or provide a fairly stable preview of the coming release.</p>
         {% capture master_tag %}master-{{ page.release.master }}{% endcapture %}
-        <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...{{ page.release.master }}">Changes since {{ page.release.version }}</a></p>
+        <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...{{ master_tag }}">Changes since {{ page.release.version }}</a></p>
         {% include download tag=master_tag class="btn-lg" %}
+        </li>
+        <li class="list-group-item">
+          Linux packages based on the code in the <tt>master</tt> branch are available from the 
+          <a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-master">Open Build Service</a>
+          (<a href="https://download.opensuse.org/repositories/home:/dg0yt/">alternative access</a>).
         </li>
       </ul>
     </div>
@@ -84,7 +89,7 @@ While it is under continuous development and considered in beta state, it has be
           Linux packages based on the unstable code in the <tt>dev</tt> branch are available from the 
           <a href="https://software.opensuse.org/download.html?project=home%3Adg0yt&package=openorienteering-mapper-unstable">Open Build Service</a>
           (<a href="https://download.opensuse.org/repositories/home:/dg0yt/">alternative access</a>).
-        </li>	
+        </li>
       </ul>
     </div>
   </div>
