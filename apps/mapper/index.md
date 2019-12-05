@@ -5,9 +5,9 @@ title: Mapper
 icon: Mapper-128.png
 favicon: Mapper-32.png
 release:
-   version:      0.9.0
-   announcement: https://www.openorienteering.org/news/2019/mapper-v0.9.0-released
-   predecessor:  0.8.4
+   version:      0.9.1
+   announcement: https://www.openorienteering.org/news/2019/mapper-v0.9.1-released
+   predecessor:  0.9.0
    master:       v20191203.4
 ---
 
@@ -103,6 +103,7 @@ While it is under continuous development and considered in beta state, it has be
     </div>
     <div id="collapse-release-history" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-release-history">
       <ul class="list-group">
+        <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.9.1">0.9.1</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.9.0">0.9.0</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.8.4">0.8.4</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.8.3">0.8.3</a></li>
@@ -146,8 +147,8 @@ While it is under continuous development and considered in beta state, it has be
 
 **Main features** of the current version include:
 	
-  * Symbol sets for ISOM 2017-2 and ISOM2000 (forest), ISSOM2007 (sprint), ISMTBOM (mountain bike), ISSkiOM (ski),
-    and for course design and control description sheets
+  * Symbol sets for ISOM 2017-2, ISSOM2007 (sprint), ISMTBOM (mountain bike), ISSkiOM 2019 (ski),
+    course design and control description sheets
   * Import and export of ocd maps and symbol sets (import: version 6 - 2018, export: version 8 - 12)
   * Georeferencing (based on PROJ library)
   * Working with various kinds of templates:
@@ -183,4 +184,4 @@ There is a lot to do, and we appreciate every kind of help, whether you are a pr
   * [Ticket system](https://github.com/OpenOrienteering/mapper/issues) showing tasks that have to be done, and the right place to report bugs
   * [Developer wiki](https://github.com/OpenOrienteering/mapper/wiki) for information about the code
   * [Developer mailing list](https://lists.sourceforge.net/lists/listinfo/oorienteering-devel) for discussions (and introducing yourself). However, the ticket system is also a good place for discussion.
-  
+
