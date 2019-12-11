@@ -56,7 +56,8 @@ While it is under continuous development and considered in beta state, it has be
         <li class="list-group-item">
         <p>The following Windows and Linux packages contain bug fixes for the previous stable release, or provide a fairly stable preview of the coming release.</p>
         {% capture master_tag %}master-{{ page.release.master }}{% endcapture %}
-        <p><a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...{{ master_tag }}">Changes since {{ page.release.version }}</a></p>
+        <p><a href="https://github.com/OpenOrienteering/mapper/releases/tag/{{ master_tag }}">Release notes</a> |
+           <a href="https://github.com/OpenOrienteering/mapper/compare/v{{ page.release.version }}...{{ master_tag }}">All changes since {{ page.release.version }}</a></p>
         {% include download tag=master_tag class="btn-lg" %}
         </li>
         <li class="list-group-item">
