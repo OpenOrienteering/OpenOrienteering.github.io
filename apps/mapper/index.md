@@ -5,9 +5,9 @@ title: Mapper
 icon: Mapper-128.png
 favicon: Mapper-32.png
 release:
-   version:      0.9.2
-   announcement: https://www.openorienteering.org/news/2020/mapper-v0.9.2-released
-   predecessor:  0.9.1
+   version:      0.9.3
+   announcement: https://www.openorienteering.org/news/2020/mapper-v0.9.3-released
+   predecessor:  0.9.2
    master:       v20200411.3
 ---
 
@@ -104,6 +104,7 @@ While it is under continuous development and considered in beta state, it has be
     </div>
     <div id="collapse-release-history" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-release-history">
       <ul class="list-group">
+        <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.9.3">0.9.3</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.9.2">0.9.2</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.9.1">0.9.1</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.9.0">0.9.0</a></li>
