@@ -8,7 +8,7 @@ release:
    version:      0.9.4
    announcement: https://www.openorienteering.org/news/2020/mapper-v0.9.4-released
    predecessor:  0.9.3
-   master:       v20201220.7
+   master:       v20201227.4
 ---
 
 OpenOrienteering Mapper is an orienteering mapmaking program and provides a free alternative to the existing proprietary solution. Its main advantages compared to it are:
