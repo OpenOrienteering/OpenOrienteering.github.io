@@ -5,10 +5,10 @@ title: Mapper
 icon: Mapper-128.png
 favicon: Mapper-32.png
 release:
-   version:      0.9.4
-   announcement: https://www.openorienteering.org/news/2020/mapper-v0.9.4-released
-   predecessor:  0.9.3
-   master:       v20201227.4
+   version:      0.9.5
+   announcement: https://www.openorienteering.org/news/2020/mapper-v0.9.5-released
+   predecessor:  0.9.4
+   master:       v0.9.5
 ---
 
 OpenOrienteering Mapper is an orienteering mapmaking program and provides a free alternative to the existing proprietary solution. Its main advantages compared to it are:
@@ -104,6 +104,7 @@ While it is under continuous development and considered in beta state, it has be
     </div>
     <div id="collapse-release-history" class="panel-collapse collapse panel" role="tabpanel" aria-labelledby="heading-release-history">
       <ul class="list-group">
+        <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.9.5">0.9.5</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.9.4">0.9.4</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.9.3">0.9.3</a></li>
         <li class="list-group-item"><a href="https://github.com/OpenOrienteering/mapper/releases/tag/v0.9.2">0.9.2</a></li>
@@ -168,7 +169,7 @@ While it is under continuous development and considered in beta state, it has be
     * Text
     * Composite symbols
   * Drawing tools and many editing tools for objects
-  * Printing, PDF and raster image export for getting the map into course setting programs
+  * Printing, PDF, KMZ and raster image export for getting the map into course setting programs
     * Overprinting simulation (raster output)
     * CMYK PDF export (vector output)
   * Translated into more than 20 languages
@@ -186,7 +187,7 @@ There is a lot to do, and we appreciate every kind of help, whether you are a pr
 </a>
   * [Manual repository](https://github.com/OpenOrienteering/mapper-manual)
   * [Git repository](https://github.com/OpenOrienteering/mapper) containing the latest source code
+  * [Discussions](https://github.com/OpenOrienteering/mapper/discussions), a place to connect with other members of our user community
   * [Ticket system](https://github.com/OpenOrienteering/mapper/issues) showing tasks that have to be done, and the right place to report bugs
   * [Developer wiki](https://github.com/OpenOrienteering/mapper/wiki) for information about the code
-  * [Developer mailing list](https://lists.sourceforge.net/lists/listinfo/oorienteering-devel) for discussions (and introducing yourself). However, the ticket system is also a good place for discussion.
 
