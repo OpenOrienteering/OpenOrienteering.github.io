@@ -16,7 +16,7 @@ function suggestDownload(userAgent, platform)
         return ['Installer for Windows (64 bit)', 'Windows-x64.exe'];
     
     if (/Android/.test(userAgent))
-        return ['APK for Android (arm v7)', 'Android-armeabi-v7a.apk'];
+        return ['APK for Android (64 bit ARM-based)', 'Android-arm64-v8a.apk'];
     
     if (/Linux/.test(platform))
         return ['for Linux', 'Linux'];
